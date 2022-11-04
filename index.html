@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer ES - Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <section id="login">
+        <div id="imagem">
+
+        </div>
+        <div id="formulario">
+            <form action="login.php" method="post" autocomplete="on">
+                <h1>Login</h1>
+                <p>Seja muito bem-vindo. Faça o login para entrar em seu ambiente.</p>
+                <div class="campo">
+                    <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" required autocomplete="email" maxlength="30">
+                    <label for="ilogin">LOGIN</label>
+                </div>
+                <div class="campo">
+                    <input type="password" name="senha" id="isenha" placeholder="Sua senha" required autocomplete="current-password" minlength="6" maxlength="8">
+                    <label for="isenha">SENHA</label>
+                </div>
+                <input type="submit" value="Entrar">
+                <a href="esqueci.html">Esqueci minha senha</a>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
