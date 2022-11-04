@@ -8,7 +8,9 @@
 }
 
 body, html {
-    background-color:aliceblue;
+    background-color:rgb(144, 203, 255);
+    height: 100vh;
+    width: 100vw;
 }
 
 section#login {
