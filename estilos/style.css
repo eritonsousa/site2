@@ -43,8 +43,6 @@ div#formulario > form > h1,p {
     padding: 5px;
 }
 
-
-
 div.campo {
   text-align: center;
   padding: 5px;
@@ -74,10 +72,18 @@ div#formulario > form > input[type=submit]{
     font-size: 1em;
 }
 
+div#formulario > form > input[type=submit]:focus-within{
+    background-color: lightblue;
+}
+
 div#formulario > form > a {
     display: block;
     text-align: center;
     margin-top: 8px;
     color: white;
     text-decoration: none;
+}
+
+div#formulario > form > a:focus-within {
+    text-decoration: underline;
 }
